@@ -10,17 +10,21 @@ nomadcoders 의 "Dart 시작하기" 강좌를 들으면서 주요내용을 요�
 
 - Object-oriented language
 - Dart 는 실행하면 늘 `main()` 부터 찾아서 실행한다
-- 늘 명령어 끝에 세미콜론(;)을 넣어야 함
+- 늘 명령어 끝에 세미콜론(`;`)을 넣어야 함
 
 ### 개발환경 세팅
 
 - Mac OS: `brew install dart-sdk`
 - Visual Studio Code + Dart plug-in
 
-### Dart commands
+### Commands
 
 ```bash
+# Run Dart main()
 dart run main.dart
+
+# Github 403 error 해결
+git remote set-url origin "https://shiwoo-park@github.com/shiwoo-park/learn-dart.git"
 ```
 
 ## 주요내용 요약
