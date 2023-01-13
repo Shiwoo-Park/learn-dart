@@ -4,6 +4,9 @@ void main() {
   // var type
   var name = '실바';
 
+  double rating = 3.5;
+  print(rating);
+
   // explicit type
   String explicit_value = 'hello';
 
@@ -27,4 +30,19 @@ void main() {
 
   nullableStr = null;
   print(nullableStr?.length);
+
+  // final
+  final limitOffset = 100;
+  print(limitOffset);
+
+  // late
+  late final int age;
+  // print(age);  // can't read (becuase it's late var)
+  age = 30; // assign only once
+  print(age); // can't read (becuase it's late var)
+  // age = 21; // can't change
+
+  // const
+  const request_timeout_default_sec = 3;
+  print(request_timeout_default_sec);
 }
