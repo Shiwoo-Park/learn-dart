@@ -1,6 +1,6 @@
 # learn-dart
 
-Self dart study
+nomadcoders 의 "Dart 시작하기" 강좌를 들으면서 주요내용을 요약해본다.
 
 [Link](https://nomadcoders.co/dart-for-beginners)
 
@@ -23,6 +23,8 @@ Self dart study
 dart run main.dart
 ```
 
+## 주요내용 요약
+
 ## Variables
 
 - `var` 또는 명시적 타입(ex. `String`)으로 변수 선언 가능
@@ -32,4 +34,4 @@ dart run main.dart
 - null safety 기능
   - nullable 표현을 위해 선언하는 타입에 물음표 `?` 을 사용 (`String? name = null;`)
   - `?` 가 없으면 어떤 변수든 nullable 이 될 수 없음
-  -
+  - `myVar?.notNullFunc` 형식으로 nullable 체크를 쉽게 할 수 있음
