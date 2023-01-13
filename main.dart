@@ -32,12 +32,14 @@ void main() {
   print(nullableStr?.length);
 
   // final
-  final limitOffset = 100;
+  final int limitOffset;
+  limitOffset = 100;
   print(limitOffset);
+  limitOffset = 200;
 
   // late
   late final int age;
-  // print(age);  // can't read (becuase it's late var)
+  // print(age); // can't read (becuase it's late var)
   age = 30; // assign only once
   print(age); // can't read (becuase it's late var)
   // age = 21; // can't change
