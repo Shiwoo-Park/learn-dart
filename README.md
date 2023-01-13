@@ -33,15 +33,16 @@ git remote set-url origin "https://shiwoo-park@github.com/shiwoo-park/learn-dart
 
 ## Variables
 
-- `var` & 명시적 타입(explicit type)
-  - 일반적인 변수 선언 시 사용 가능
-  - [Built-in Types](https://dart.dev/guides/language/language-tour#built-in-types) : 클래스변수 or property 등에 주로 사용
+- 일반 변수선언은 타입이 한번 정해지면 다른 타입의 값 할당 불가
+- `var` & `Built-in Type`
+  - 일반적인 변수 선언 시 사용
+  - [Built-in Types(=explicit type)](https://dart.dev/guides/language/language-tour#built-in-types) : 클래스변수 or property 등에 주로 사용
     - ex. `String`, `int`, `double`, `bool` ...
-  - `var`: 로컬변수(비즈니스로직 짤때)에 가볍게 선언할 때 사용 (compiler 가 알아서 타입 인식)
-  - 타입이 한번 정해지면 다른 타입값 할당 불가
+  - `var`: 로컬변수(비즈니스 로직 짤때)에 가볍게 선언할 때 사용 (compiler 가 알아서 타입 인식)
 - `dynamic`
-  - 타입이 다른 값을 할당할 수 있는 변수 선언시 사용
+  - 동적 타입 변수를 선언할 수 있는 유일한 방법
   - 사용한다면 매우 조심스럽게 사용해야하며, 되도록 쓰지 않는게 좋음
+  - ex. `dynamic magicVar = 'magic';`
 - null safety 기능
   - 모든 변수는 기본적으로 null 이 아님 (null 넣으면 에러)
   - nullable 표현을 위해 선언하는 타입에 물음표 `?` 을 사용 (ex. `String? name = null;`)
