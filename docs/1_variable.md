@@ -1,4 +1,4 @@
-[prev](README.md)
+[prev](../README.md)
 
 # Variables
 
