@@ -1,3 +1,5 @@
+[prev](README.md)
+
 # Variables
 
 - 일반 변수선언은 타입이 한번 정해지면 다른 타입의 값 할당 불가
