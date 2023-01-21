@@ -2,6 +2,10 @@
 
 # Variables
 
+[Sample Code](../1_variable.dart)
+
+## Contents
+
 - 일반 변수선언은 타입이 한번 정해지면 다른 타입의 값 할당 불가
 - `var` & `Built-in Type`
   - 일반적인 변수 선언 시 사용

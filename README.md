@@ -47,3 +47,4 @@ git remote set-url origin "https://shiwoo-park@github.com/shiwoo-park/learn-dart
 
 - [1. Variables](docs/1_variable.md)
 - [2. Data Types](docs/2_data_type.md)
+- [2. Data Types](docs/3_function.md)
