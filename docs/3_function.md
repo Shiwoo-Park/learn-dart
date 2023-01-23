@@ -1,4 +1,8 @@
+[prev](../README.md)
+
 # Function
+
+[Sample Code](../3_function.dart)
 
 ## Contents
 
@@ -15,4 +19,7 @@
 - 특수 Operator
   - `leftValue ?? rightValue` : 만약 leftValue 이 null 이면 rightValue 을 활용
   - `myVar ??= "newVal"` : 만약 myVar 가 null 이면 newVal 을 할당한다.
-- `typedef` : 특정 타입의 alias 를 지정할 수 있다. (복잡한 타입의 단순화에 유용함)
+- `typedef`
+  - 특정 타입의 alias 를 지정할 수 있다. (복잡한 타입의 단순화에 유용함)
+  - 단순히 특정 타입의 동치 단어를 만들때 사용.
+  - 특정 구조의 데이터 만들때는 반드시 class 사용 해라.
