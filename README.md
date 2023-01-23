@@ -25,7 +25,6 @@ nomadcoders 의 "Dart 시작하기" 강좌를 들으면서 주요내용을 요�
   - 프레임워크와 그것을 지원하는 언어가 둘다 같은 회사에서 소유하고 있음.
   - Flutter team 에서 언어레벨의 요구사항이 생기면 Dart 팀에 요청 가능
 
-
 ### 개발환경 세팅
 
 - Install `dart-sdk`
@@ -42,9 +41,8 @@ dart run main.dart
 git remote set-url origin "https://shiwoo-park@github.com/shiwoo-park/learn-dart.git"
 ```
 
-
 ## 주요내용 요약
 
 - [1. Variables](docs/1_variable.md)
 - [2. Data Types](docs/2_data_type.md)
-- [2. Data Types](docs/3_function.md)
+- [3. Functions](docs/3_function.md)
