@@ -26,6 +26,16 @@ String getUserDesc({
 String getTwoOrThreeNum(int num1, int num2, [int? num3 = 100]) =>
     "$num1 - $num2 - $num3";
 
+// Operator ??
+String capitalize(String? s) => s?.toUpperCase() ?? "NONE";
+
+// typedef
+typedef ListOfInt = List<int>;
+ListOfInt getReversed(ListOfInt numList) {
+  var reversed = numList.reversed;
+  return reversed.toList();
+}
+
 void main() {
   print("getFullName: " + getFullName("Silva", "Park"));
   print("getFullNameV2: " + getFullNameV2("Silva", "Park"));
@@ -42,4 +52,15 @@ void main() {
   print(getTwoOrThreeNum(10, 20));
   print(getTwoOrThreeNum(10, 20, 30));
   print(getTwoOrThreeNum(10, 20, null));
+
+  print("=====================");
+  print(capitalize("silva"));
+  print(capitalize(null));
+
+  int? height;
+  height ??= 180;
+  print(height);
+
+  print("=====================");
+  print(getReversed([1, 2, 3, 4]));
 }
