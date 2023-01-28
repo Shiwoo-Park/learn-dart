@@ -1,4 +1,8 @@
+[prev](../README.md)
+
 # Function
+
+[Sample Code](../3_function.dart)
 
 ## Contents
 
