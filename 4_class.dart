@@ -38,8 +38,8 @@ class Soldier extends Man {
 
   Soldier(
     this.weapon,
-    String name,
-  ) : super(name);
+    super.name, // super class property 로 직접 할당
+  );
 
   void fight() {
     if (this.weapon == Weapon.gun) {
@@ -54,6 +54,7 @@ class Soldier extends Man {
 
 // Use Mixin
 class Athlete extends Man with Strong, Fast {
+  // super class 생성자 직접 호출
   Athlete(String name) : super(name);
 }
 
