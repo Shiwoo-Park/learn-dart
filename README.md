@@ -43,6 +43,7 @@ git remote set-url origin "https://shiwoo-park@github.com/shiwoo-park/learn-dart
 
 ## 주요내용 요약
 
-- [1. Variables](docs/1_variable.md)
-- [2. Data Types](docs/2_data_type.md)
-- [3. Functions](docs/3_function.md)
+- [1. Variable](docs/1_variable.md)
+- [2. Data Type](docs/2_data_type.md)
+- [3. Function](docs/3_function.md)
+- [4. Class](docs/4_class.md)

@@ -111,4 +111,14 @@ void main() {
   print(cursedItemV3);
 
   print("--------------------------");
+  var secondItemV3 = ItemV3(
+    name: "spear",
+    level: 4,
+    color: "purple",
+    can_upgrade: false,
+  )
+    ..name = "dagger"
+    ..level = 7
+    ..color = "rainbow";
+  print(secondItemV3);
 }
