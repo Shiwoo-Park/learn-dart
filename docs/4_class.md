@@ -7,8 +7,21 @@
 ## Contents
 
 - 일반적인 클래스의 목적과 기능을 동일하게 가짐
-- 특이한 점은 Constructor method 의 정의 방식이 다양하다는 점이다.
-- 그 중에서도 Named constructor(=custom constructor) 를 만들때의 문법이 독특하다는 점이다.
+- 특이한 점은 `Constructor method` 의 정의 방식이 다양하다는 점이다.
+- 그 중에서도 `Named constructor(=custom constructor)` 를 만들때의 문법이 독특하다는 점이다.
+- `Cascade Notation`: 객체 생성 뒤 바로 이어서 `..` 이라는 문법을 사용하여 추가 액션을 할 수도 있다.
+- enum
+  - value 맵핑까지 가능한 enum 은 없는지?
+  - 너무 심플한것만 알려줘서 용도를 잘 모르겠음.
+  - 밑에 함수를 붙일수는 없는건가?
+- abstract class 
+  - attribute 는 붙일 수 없는건가?
+  - 그냥 method 만 붙이는데 쓰는건가?
+- Mixin
+  - 생성자 없는 클래스를 말한다.
+  - 특정 property 또는 method set 을 가지고 있음
+  - 특정 기능을 여러 클래스에 갖다 붙일 수 있다.
+
 
 ## 다양한 Constructor 정의 방식
 
